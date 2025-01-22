@@ -11,6 +11,7 @@ public class NumberList{
         for (int i = 0; i<multiplesOf3.size(); i++){
             if (multiplesOf3.get(i)%2==0){
                 multiplesOf3.remove(i);
+                i--;
             }
         }
 
